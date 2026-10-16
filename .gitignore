@@ -1,0 +1,17 @@
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+*.md
+*.mdx
+.env
+.env.*
+tmp/
+clean-room/
+dist/
+paper/preview/
+artifacts/**/checkpoints/
+artifacts/**/reference-cache*.json
+artifacts/**/logs/

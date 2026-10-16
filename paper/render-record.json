@@ -1,0 +1,8 @@
+{
+  "pages": 11,
+  "pdf_sha256": "09ff866e89a1351cd5c2050366c02052b6dd652cf3ae749005d9334ac7d6a028",
+  "renderer": "ReportLab; equations/plots Matplotlib; page PNGs PyMuPDF",
+  "tex_status": "Synchronized editable source emitted; not claimed compiled by LaTeX",
+  "visual_inspection": "passed: pages 9 and 10 inspected after editorial update; other 9 pages match previously inspected renders pixel-for-pixel",
+  "inspection_scope": "Layout and legibility of all 11 rendered pages"
+}

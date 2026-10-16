@@ -1,0 +1,10 @@
+Trial,Arm,"Training, s","Whole process, s"
+0,A: separate reference,901.831,1159.711
+0,B: shared base,907.790,1159.711
+0,C: cold shared cache,611.667,1013.617
+1,B: shared base,896.044,1142.434
+1,C: cold shared cache,609.977,1013.588
+1,A: separate reference,902.195,1151.478
+2,C: cold shared cache,609.702,1014.831
+2,A: separate reference,897.240,1145.515
+2,B: shared base,902.774,1147.964

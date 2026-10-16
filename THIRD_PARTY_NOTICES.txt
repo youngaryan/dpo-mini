@@ -1,0 +1,35 @@
+Third-party materials
+
+The independent objective is specified by Rafailov et al., *Direct Preference
+Optimization: Your Language Model is Secretly a Reward Model* (2023),
+https://arxiv.org/abs/2305.18290. Reference caching is existing practice, including
+TRL's precompute_ref_log_probs support. No novelty is claimed for either idea.
+
+Installed upstream TRL 0.24.0 functions are invoked for comparison under its
+Apache-2.0 license. This project's loss, scoring, collator, cache and training
+loop are independently authored. The local source archive contains retrieved
+primary sources for audit, not a claim of ownership. The authors' DPO repository
+is not imported or executed. Its original license and copyright apply.
+
+Model/data files are in ignored `.cache/`, and are not intended for redistribution.
+Qwen3 and SmolLM2 model cards and any supplied LICENSE files are stored alongside
+the downloaded artifacts. UltraFeedback Binarized is AI-feedback preference
+data, subject to its dataset card and underlying source restrictions. Public
+download does not establish unrestricted redistribution rights. Inspect those
+terms before releasing any derived examples or checkpoints.
+
+PyTorch, Transformers, Datasets, PEFT, TRL, NumPy, pytest, psutil, matplotlib,
+ReportLab and PyMuPDF retain their respective licenses. PyMuPDF is used locally
+only for PDF rendering/inspection; do not assume its AGPL/commercial license
+permits arbitrary proprietary redistribution. Exact installed versions are
+recorded in requirements.lock and artifacts/environment.json.
+
+The finalization diagnostic preserves the installed TRL 0.24.0
+`selective_log_softmax` function verbatim inside its source-inspection evidence.
+The upstream file is Copyright 2020-2025 The HuggingFace Team. All rights reserved.
+It is licensed under Apache License 2.0; the unmodified installed license is
+included as `licenses/TRL-Apache-2.0.txt`. The function is retained for numerical
+audit and is not represented as independently authored project code. Versioned
+TRL adapter glue invokes the installed implementation. The PEFT installed
+license is retained in `licenses/PEFT-Apache-2.0.txt`; its API is invoked, not
+reimplemented. No additional project-wide license grant is made here.

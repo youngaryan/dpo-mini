@@ -1,0 +1,13 @@
+profile: toy
+model_id: local/tiny-byte-transformer-v1
+train_pairs: 64
+validation_pairs: 16
+test_pairs: 16
+max_length: 128
+microbatch_pairs: 1
+effective_batch_pairs: 16
+beta: 0.1
+learning_rate: 0.001
+weight_dtype: float32
+compute_dtype: float32
+reduction_dtype: float32

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpo-mini"
+version = "0.1.0"
+description = "Independent sigmoid DPO correctness and fixed-reference caching study"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.2", "numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["integration: optional installed upstream integration, separate from core", "network: requires public downloads"]

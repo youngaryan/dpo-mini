@@ -1,0 +1,8 @@
+Comparison,Score error,Loss error,Gradient error,Interpretation
+FP64 score loss / TRL,n/a,0,0,Original bounds pass
+Historical tiny GPT-2 / TRL,0,0,2.2352e-8,Tiny function scope
+"Pretrained initial, FP32",6.1035e-04,1.5259e-05,1.9977e-06,Original score/loss bounds fail
+"Pretrained trained, FP32",6.4087e-04,1.6809e-05,2.0103e-06,Original score/loss/gradient bounds fail
+"Initial, FP64 reduction diagnostic",1.7053e-13,9.992e-15,0,"FP32 weights/logits, FP64 reducers"
+"Trained, FP64 reduction diagnostic",1.9895e-13,6.5503e-15,0,"FP32 weights/logits, FP64 reducers"
+Shared reference / separate,0,0,n/a,Before and after adapter updates

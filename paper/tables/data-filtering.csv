@@ -1,0 +1,3 @@
+Official source,Original,Length excluded,Non-strict scores,Empty / identical,Eligible
+train_prefs,61135,43133,7286,81 / 424,10211
+test_prefs,2000,1360,270,3 / 12,355

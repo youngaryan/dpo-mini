@@ -1,0 +1,19 @@
+Stage,Separate reference,Separate-built cache
+cache persist verify read,0.000,0.235
+checkpoint write,1.058,1.072
+final evaluation,231.607,114.291
+final generation,41.164,40.507
+final identity validation,2.334,1.560
+initial evaluation,262.579,116.998
+initial fixture identity,0.753,0.763
+initial generation,47.714,40.821
+load data tokenizer policy validate,8.103,8.197
+measured training,793.553,497.835
+optimizer rng restore,0.008,0.008
+reference construction and identity,1.241,1.198
+reference precompute test,0.000,60.512
+reference precompute train,0.000,228.436
+reference precompute validation,0.000,55.894
+shutdown release,0.200,0.178
+Unallocated parent residual,5.212,4.903
+Parent whole process,1395.527,1173.407

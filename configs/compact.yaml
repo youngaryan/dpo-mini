@@ -1,0 +1,15 @@
+profile: compact
+model_id: HuggingFaceTB/SmolLM2-135M-Instruct
+train_pairs: 256
+validation_pairs: 64
+test_pairs: 64
+max_length: 256
+microbatch_pairs: 1
+effective_batch_pairs: 16
+beta: 0.1
+learning_rate: 0.00005
+lora_rank: 16
+lora_alpha: 32
+weight_dtype: float32
+compute_dtype: float32
+reduction_dtype: float32

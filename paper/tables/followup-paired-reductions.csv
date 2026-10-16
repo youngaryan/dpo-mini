@@ -1,0 +1,10 @@
+Trial,Comparison,"Training, %","Whole process, %"
+0,separate to shared,-0.661,-0.000
+0,shared to cached,32.620,12.597
+0,separate to cached,32.175,12.597
+1,separate to shared,0.682,0.785
+1,shared to cached,31.926,11.278
+1,separate to cached,32.390,11.975
+2,separate to shared,-0.617,-0.214
+2,shared to cached,32.463,11.597
+2,separate to cached,32.047,11.408

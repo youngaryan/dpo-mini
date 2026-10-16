@@ -1,0 +1,15 @@
+profile: standard
+model_id: Qwen/Qwen3-0.6B
+train_pairs: 2000
+validation_pairs: 300
+test_pairs: 300
+max_length: 512
+microbatch_pairs: 1
+effective_batch_pairs: 16
+beta: 0.1
+learning_rate: 0.00005
+lora_rank: 16
+lora_alpha: 32
+weight_dtype: float32
+compute_dtype: float32
+reduction_dtype: float32
